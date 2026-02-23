@@ -1,5 +1,11 @@
 # Changelog
 
+## \[0.54.3]
+
+### enhance
+
+- [`e430558`](https://github.com/tauri-apps/wry/commit/e430558f4be90096a1bf786cdb59c49a0754beec) ([#1649](https://github.com/tauri-apps/wry/pull/1649) by [@aoxiangtianyu-go](https://github.com/tauri-apps/wry/../../aoxiangtianyu-go)) Add an option to control browser-level autofill behavior on Windows.
+
 ## \[0.54.2]
 
 - [`1d1b870`](https://github.com/tauri-apps/wry/commit/1d1b8707665b4638e040dde7a88cd33d77ba2ebc) ([#1662](https://github.com/tauri-apps/wry/pull/1662) by [@JSKitty](https://github.com/tauri-apps/wry/../../JSKitty)) On macOS, implement `background_color` support for WKWebView behind the `transparent` feature. Disables the default white background via the `drawsBackground` KVC key at init and applies `underPageBackgroundColor` on macOS 12+ for both initial creation and runtime `set_background_color` calls.
